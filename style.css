@@ -1,0 +1,175 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f9faf8;
+    margin: 0px;    
+}
+
+.header, .sub-header, .footer {
+    background-color: #1F2937;
+    color:#f9faf8;
+}
+
+.header {
+    display:flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    border-radius: 20px;
+    width: 60px;
+    padding: 10px;
+}
+.nav-links ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-links a {
+    color: #f9faf8;
+    text-decoration: none;
+    padding: 10px
+}
+
+.sub-header {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.intro {
+    font-size: 24px;
+    margin: 0px;
+    padding: 20px;
+}
+
+.intro h1, .intro p, .intro button {
+    margin: 10px
+}
+
+.main-photo img {
+    margin:20px;
+    border-radius: 20px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-color: #f9faf8;
+    padding: 8px 16px;
+    border-radius: 10px;
+    font-weight: 900;
+    border-style: none;
+}
+
+.body-top h2 {
+    text-align: center;
+    color:#1F2937
+
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    font-size: 14px;
+    text-align: center;
+    width: 250px;
+    height: 300px;
+}
+
+.card img {
+    height: 200px;
+    width: auto;
+    margin:10px;
+    border-radius: 20px;
+    border-color: #3882f6;
+    border-style: solid;
+
+}
+
+.body-mid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    width: 100%;
+}
+
+.quote {
+    max-width: 500px;
+    text-align: center;
+    margin: 20px;
+}
+
+.quote-text {
+    font-style: italic;
+    font-weight: lighter;
+    color:dimgrey;
+    text-align: left;
+}
+
+.author {
+    font-weight: bold;
+    text-align: right;
+}
+.body-bottom {
+    display: flex;
+    justify-content: center;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    background-color: #3882f6;
+    margin: 50px;
+    min-height: 100px;
+    max-width: 1200px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.schpeel {
+    padding: 10px 30px;
+    color: #e5e7eb;
+    
+ }
+.schpeel .title {
+    font-weight: 900;
+}
+
+.schpeel .text {
+    font-weight: 200;
+}
+
+.useless {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.useless button {
+    border-style: solid;
+    padding: 8px 16px;
+}
+
+.footer {
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+}
